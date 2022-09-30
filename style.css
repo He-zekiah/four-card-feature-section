@@ -9,105 +9,73 @@
 .container {
     height: 100vh;
     width: 100vw;
-    background-color: #ffff;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-}
-
-.content {
-    width: 900px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+}
+
+.begin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .header {
+    width: 400px;
+    color: hsl(229, 6%, 66%);
+    font-weight: lighter;
     text-align: center;
-    font-weight: 100;
-    width: 350px;
-    margin-left: 450px;
-    color:  hsl(234, 12%, 34%);
 }
 
 .sub__header {
-    text-align: center;
-    color: hsl(0, 0%, 6%);
     font-weight: bolder;
-    font-size: 30px;
+    color: hsl(234, 12%, 34%);
 }
 
 .text {
-    margin-left: 450px;
-    margin-top: 20px;
+    width: 400px;
     text-align: center;
-    width: 350px;
-    font-size: 12px;
+    margin-top: 20px;
+    font-size: 14px;
 }
 
 .box {
-    margin-top: 10px;
-    margin-left: 320px;
-    width: 100%;
+    margin-top: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
-.con1 {
-    padding: 20px;
-    width: 500px;
-    height: 140px;
-    margin-top: 150px;
-    border-radius: 8px;
+.con {
+    width: 220px;
+    /* height: 120px; */
+    margin-top: 20px;
     background-color: aqua;
-}
-
-.con2 {
-    padding: 20px;
-    width: 500px;
-    height: 140px;
-    margin-left: 20px;
-    margin-bottom: 100px;
     border-radius: 8px;
-    background-color: blue;
-    /* position: relative; */
-}
-
-.con3 {
-    /* position: absolute; */
     padding: 20px;
+}
+
+.middle {
     margin-left: 20px;
-    margin-top: 250px;
-    border-radius: 8px;
-    background-color: green;
-    width: 500px;
-    height: 140px;
-}
-
-.con4 {
-    padding: 20px;
-    width: 500px;
-    height: 140px;
-    margin-top: 150px;
-    margin-left: 20px;
-    border-radius: 8px;
-    background-color:  red;
-
-}
-
-.topic {
-    font-size: 15px;
-    font-weight: bolder;
-}
-
-.info {
-    font-size: 10px;
-    margin-top: 10px;
+    margin-right: 20px;
 }
 
 .con__img {
     width: 40px;
     margin-top: 20px;
-    margin-left: 120px;
+    margin-left: 140px;
 }
+
+.topic {
+    font-weight: bolder;
+}
+
+.info {
+    margin-top: 10px;
+    font-size: 11px;
+    color:  hsl(0, 0%, 98%);
+}
+    
+
+
